@@ -1,3 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+head{
+    background-color: #6B503F;
+}
+
 body.page_1 {
     background-image: url("page_1.png");
     background-repeat:no-repeat;
@@ -17,12 +27,16 @@ body.page_1 {
 .Nav-bar-left li:nth-child(-n+4) {
     color: white;
     flex: 1;
+    background-color: #6B503F;
+    padding: 10px;
 }
 
 /* Style last three items with black text */
 .Nav-bar-left li:nth-last-child(-n+4) {
     color: black; 
     flex: 1;
+    background-color: white;
+    padding: 10px;
 }
 
 /* Add common styles for all list items */
@@ -30,6 +44,7 @@ body.page_1 {
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* Style to remove underline and set color */
@@ -84,16 +99,16 @@ body.page_1 {
 .Email{
     color:white;
     font-family:'Courier New', Courier, monospace;
-    font-size: 45px;
-    padding-left: 50px;
+    font-size: 3vw;
+    padding-left: 10%;
     margin-bottom: 15px;
 }
 
 .Password{
     color:white;
     font-family:'Courier New', Courier, monospace;
-    font-size: 45px;
-    padding-left: 50px;
+    font-size: 3vw;
+    padding-left: 10%;
 }
 
 .Email-input{
