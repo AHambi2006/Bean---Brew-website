@@ -175,3 +175,52 @@ body.page_1 {
     color: white;
     text-align: center;    
 }
+
+body.coffee{
+    background-image: url(Coffee-background.png);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.white-line {
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 800px;
+   }
+
+.Browse-Button {
+    display: flex;
+    cursor: pointer;
+    margin: auto; 
+    margin-top: auto; 
+    margin-bottom: 2%;
+    max-width: 100%;
+    opacity: 80%;
+    border: 0;
+    background: none;
+    padding: 0;
+    border-radius: 60px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+}
+
+.Click-Collect-text {
+    height: 20%;
+    position: fixed;
+    padding-left: 5%;
+    bottom: 36%;
+}
+
+.click-collect-description {
+    font-size: 170%;
+    color: white;
+    text-align: left;
+    padding-left: 10%;
+    position: fixed;
+    bottom: 30%;  
+  }
