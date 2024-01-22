@@ -1,0 +1,162 @@
+body.page_1 {
+    background-image: url("page_1.png");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    margin: 0;
+} 
+
+
+/* horizontal layout to the list items */
+.Nav-bar-left {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+/* Style first three items with a white text */
+.Nav-bar-left li:nth-child(-n+4) {
+    color: white;
+    flex: 1;
+}
+
+/* Style last three items with black text */
+.Nav-bar-left li:nth-last-child(-n+4) {
+    color: black; 
+    flex: 1;
+}
+
+/* Add common styles for all list items */
+.Nav-bar-left li {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style to remove underline and set color */
+.Nav-bar-left a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Underlines links on hover */
+.Nav-bar-left a:hover {
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adds a shadow on hover */
+}
+
+
+.left{
+    background: url(Login-Coffee.png) no-repeat center;
+    float: left;
+    width: 25%;
+    height: 100vh;
+    height: 100svh;
+    background-size: cover;
+}
+
+
+.right{
+    background: url(Login-Bakery.png) no-repeat center;
+    float: right;
+    width: 25%;
+    height: 100vh;
+    height: 100svh;
+    background-size: cover;
+}
+
+
+.center{
+    margin:0;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    height:100svh;
+    background-color: #6B503F;
+}
+
+.center img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.Email{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.Password{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+    padding-left: 50px;
+}
+
+.Email-input{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Password-input{
+    text-align: center;
+}
+
+.Login-input{
+    background-color: transparent;
+    padding: 10px;
+    border: 3px solid white;
+    font-size: 16px;
+    color: white;
+    width: 90%;
+    height: 35px;
+    outline: none;
+}
+
+.Remember{
+    font-size: 16px;
+    padding-left: 35px;
+    color: white;
+
+}
+
+.Login{
+    position: relative;
+}
+
+.Login-button{
+    display: flex;
+    cursor: pointer;
+    margin: auto; 
+    margin-top: auto; 
+    margin-bottom: 20px;
+    max-width: 100%;
+    opacity: 80%;
+    border: 0;
+    background: none;
+    padding: 0;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.Login-button:hover{
+    box-shadow: 0,0,5px rgba(0, 0, 0, 1);
+}
+
+.Member{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Create{
+    color: white;
+}
+
+.Forget-password{
+    color: white;
+    text-align: center;    
+}
