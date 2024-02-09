@@ -173,7 +173,7 @@ body.page_1 {
 
 .Forget-password{
     color: white;
-    text-align: center;    
+    text-align: center;
 }
 
 body.coffee{
@@ -224,3 +224,11 @@ body.coffee{
     position: fixed;
     bottom: 30%;  
   }
+
+body.Book-Space{
+    background-image: url(Book-A-Space-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100svh;
+}
+
